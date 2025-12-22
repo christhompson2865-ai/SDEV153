@@ -87,17 +87,20 @@ code {
   border-radius: 5px; 
 }
 .site-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 2rem;
   margin: 0;
   color: white;
   text-align: center;
-  flex-grow: 1;
 }
 .header-top {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
   padding-bottom: 1rem;
+  position: relative;
 }
+
 
