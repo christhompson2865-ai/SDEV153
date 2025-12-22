@@ -1,0 +1,19 @@
+<h1>Community Reviews</h1>
+<p>See what people are saying about our community.</p>
+
+<div class="reviews-container">
+  <div class="review-card">
+    <p class="review-text">"Amazing experience! Super easy to use and very helpful."</p>
+    <p class="review-author">— Alex R.</p>
+  </div>
+
+  <div class="review-card">
+    <p class="review-text">"I love how intuitive everything feels. Great job!"</p>
+    <p class="review-author">— Jamie L.</p>
+  </div>
+
+  <div class="review-card">
+    <p class="review-text">"Fast, clean, and reliable. Highly recommended."</p>
+    <p class="review-author">— Morgan S.</p>
+  </div>
+</div>
