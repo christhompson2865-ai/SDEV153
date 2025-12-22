@@ -103,4 +103,15 @@ code {
   position: relative;
 }
 
+@media (max-width: 600px) {
+  .header-top {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-top .logo {
+    margin-bottom: 10px;
+  }
+}
 
