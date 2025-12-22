@@ -25,36 +25,40 @@
       <h2>What People Are Saying</h2>
       <p>Here are some thoughts from members of our community.</p>
 
-      <div id="reviews-container" class="reviews-container"></div>
+      <div class="reviews-container">
+
+        <div class="review-card">
+          <p class="review-text">"Amazing experience! Super easy to use and very helpful."</p>
+          <p class="review-author">— Alex R.</p>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">"Clean layout, fast loading, and super intuitive."</p>
+          <p class="review-author">— Jordan K.</p>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">"One of the best user experiences I’ve had online."</p>
+          <p class="review-author">— Sam D.</p>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">"Simple, elegant, and effective. Love it."</p>
+          <p class="review-author">— Casey W.</p>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">"I found exactly what I needed in seconds."</p>
+          <p class="review-author">— Riley P.</p>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">"This site is incredibly well-designed. Everything just works."</p>
+          <p class="review-author">— Taylor M.</p>
+        </div>
+
+      </div>
     </section>
   </main>
-
-  <script>
-    const reviews = [
-      { text: "Amazing experience! Super easy to use and very helpful.", author: "Alex R." },
-      { text: "Clean layout, fast loading, and super intuitive.", author: "Jordan K." },
-      { text: "One of the best user experiences I’ve had online.", author: "Sam D." },
-      { text: "Simple, elegant, and effective. Love it.", author: "Casey W." },
-      { text: "I found exactly what I needed in seconds.", author: "Riley P." },
-      { text: "This site is incredibly well-designed. Everything just works.", author: "Taylor M." }
-    ];
-
-    function shuffle(array) {
-      return array.sort(() => Math.random() - 0.5);
-    }
-
-    const container = document.getElementById("reviews-container");
-    const randomReviews = shuffle(reviews).slice(0, 3);
-
-    randomReviews.forEach(review => {
-      const card = document.createElement("div");
-      card.className = "review-card";
-      card.innerHTML = `
-        <p class="review-text">"${review.text}"</p>
-        <p class="review-author">— ${review.author}</p>
-      `;
-      container.appendChild(card);
-    });
-  </script>
 </body>
 </html>
