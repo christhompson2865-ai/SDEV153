@@ -75,3 +75,15 @@ code {
   margin-top: 1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.logo {
+  height: 60px;
+  width: auto;
+  border-radius: 5px; 
+}
+
